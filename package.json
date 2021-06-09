@@ -1,0 +1,21 @@
+{
+  "name": "rpc-cli",
+  "version": "1.0.0",
+  "main": "bin/index.js",
+  "type": "module",
+  "bin": {
+    "rpc": "./bin/index.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "arg": "^5.0.0",
+    "esm": "^3.2.25",
+    "inquirer": "^8.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.28.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "prettier": "^2.3.1"
+  }
+}

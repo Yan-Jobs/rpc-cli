@@ -1,0 +1,19 @@
+
+{
+  "env": {
+    "node": true,
+    "commonjs": false,
+    "es2021": true
+  },
+  "extends": "plugin:prettier/recommended",
+  "parserOptions": {
+    "ecmaVersion": 2021,
+    "sourceType": "module"
+  },
+  "rules": {
+    "prettier/prettier": "warn",
+    "no-undef": "error",
+    "prefer-const": "warn"
+  }
+
+}
