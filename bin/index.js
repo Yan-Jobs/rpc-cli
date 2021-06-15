@@ -10,7 +10,6 @@ fs.access("/.rpcrc.json", fs.F_OK, (err) => {
       if (err) throw err;
       console.log("Fichier créé !");
     });
-    return;
   }
 });
 function parseArgumentsIntoOptions(rawArgs) {
