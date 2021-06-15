@@ -1,7 +1,18 @@
 #!/usr/bin/env node
 
 import arg from "arg";
+import fs from "fs";
 
+fs.access("/.rpcrc.json", fs.F_OK, (err) => {
+  if (err) {
+    console.error(err);
+    fs.appendFile("/.rpcrc.json", "{\n}", function (err) {
+      if (err) throw err;
+      console.log("Fichier créé !");
+    });
+    return;
+  }
+});
 function parseArgumentsIntoOptions(rawArgs) {
   const args = arg(
     {},
