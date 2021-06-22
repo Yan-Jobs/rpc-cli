@@ -2,3 +2,4 @@ node_modules/
 .idea/
 yarn.lock
 rpc-cli.iml
+rpc.js

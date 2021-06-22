@@ -14,10 +14,11 @@
   "dependencies": {
     "arg": "^5.0.0",
     "configstore": "^6.0.0",
+    "discord-rpc": "^4.0.1",
     "esm": "^3.2.25",
     "fs": "^0.0.1-security",
     "graceful-fs": "^4.2.6",
-    "inquirer": "^8.1.0",
+    "inquirer": "^8.1.1",
     "unique-string": "^3.0.0",
     "write-file-atomic": "^3.0.3"
   },
